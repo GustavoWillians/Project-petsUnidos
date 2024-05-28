@@ -211,6 +211,6 @@ document.addEventListener("DOMContentLoaded", function() {
     const portalPetsBtn = document.getElementById('portalPetsBtn');
 
     portalPetsBtn.addEventListener('click', function() {
-        window.location.href = '../Projeto_pets/petsPortal.html';
+        window.location.href = '../Projeto_pets/index.html';
     });
 });
