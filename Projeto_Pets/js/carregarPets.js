@@ -93,7 +93,7 @@ window.addEventListener('load', function() {
     // Adiciona um evento de clique ao elemento de menu "Login"
     loginMenu.addEventListener('click', function() {
         // Redireciona o navegador para a página de login
-        window.location.href = './login/index.html';
+        window.location.href = '../login/index.html';
     });
     
     // Chama a função para carregar os dados dos pets da API
