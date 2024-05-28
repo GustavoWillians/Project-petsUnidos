@@ -1,0 +1,190 @@
+body{
+    background-color: #dedee1;
+    margin: 0;
+    padding: 0;
+   
+}
+
+#principal{
+    width: 500px;
+    height: 500px;
+    background-color:#ffffff;
+    margin: auto;
+    margin-bottom: 50px;
+
+}
+
+#principal h1{
+    width: inherit;
+    height: 50px;
+    text-align: center;
+    background-color:#53f707;
+    color:  #116a94;
+    font-family: Verdana;
+}
+
+form{
+    width: 90%;
+    margin: auto;
+}
+
+
+#principal label{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 50px;
+    height: 20px;
+    display: block;
+}
+
+#principal input, textarea{
+    width: 90%;
+    height: 30px;
+    border-radius: 5px;
+    font-size: 1.1em;
+    border: solid 1px #c1c1c1;
+    margin-bottom: 10px;
+}
+
+#principal input[name="txt_price"]{
+    width: 30%;
+}
+
+#subtitle {
+    height: 100px;
+    resize: none;
+}
+
+#Salvar{
+    margin-top: 10px;;
+    padding-top: 8px;
+    display: block;
+    width: 100px;
+    height: 30px;
+    color: orange;
+    background-color: #000000;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+#Salvar:hover{
+    background-color: #f77307;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+#listPets{
+
+    width: 1200px;
+    height: auto;
+    min-height: 200px;
+    overflow: hidden;
+    background-color: #ffffff;
+    padding-left: 10px;
+    margin: auto;
+    padding: 10px;
+}
+
+#listPets h1{
+    color: #116a94;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#listPets .linha{
+    width: inherit;
+    height: 40px;
+    margin-bottom: 10px;
+    display: flex;
+}
+
+.titulo{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.5em;
+    text-align: center;
+    font-weight: bold;
+    background-color: #0783f7;
+    
+}
+
+
+
+#listPets .linha div{
+    width: 30%;
+    margin-right: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.dados div{
+    width: 50px;
+    background-color: rgb(196, 241, 255);
+    box-sizing: border-box;
+    margin-right: 5px;
+    padding: 10px;
+    
+}
+.dados img{
+    width: 30px;
+    height: 30px;
+    margin-right: 15px;
+   
+}
+
+.dados img:hover{
+    cursor: pointer;
+}
+header, footer{
+    width: 100%;
+    height: 100px;
+    background-color: #0783f7;
+    
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Para alinhar o botão e o texto nos extremos */
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2em;
+    font-weight: bold;
+    padding: 10px; /* Adicionando um padding para afastar do topo */
+}
+
+footer{
+    box-sizing: border-box;
+    padding: 20px;
+    height: 80px;
+}
+
+footer span{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #000000;
+    display: block;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+#portalPetsBtn {
+    background-color: white;
+    color: #116a94;
+    padding: 20px 40px;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+    cursor: pointer;
+    margin-right: 20px;
+    flex-shrink: 0; /* Para evitar que o botão encolha */
+    font-size: 30px;
+}
+
+#portalPetsBtn:hover {
+    background-color: #f0f0f0;
+}
+
+
+#headerTitle {
+    text-align: center; /* Para centralizar o texto */
+    flex-grow: 1; /* Para ocupar o espaço restante */
+}

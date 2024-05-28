@@ -1,0 +1,215 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+
+}
+
+/* CLASSES DE PADRONIZAÇÃO */
+
+.back_image {
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* AREA DO MENU */
+
+#caixa_menu {
+    width: 100%;
+    height: 80px;
+    background-color: #000e24;
+}
+
+#menu {
+    width: 1200px;
+    height: inherit;
+}
+
+.item_menu {
+    width: 200px;
+    text-align: center;
+    font-family: cursive;
+    font-size: 26px;
+    color: chartreuse;
+    float: left;
+    padding-top: 20px;
+}
+
+.item_menu:hover {
+    color: #ec0707;
+    border-bottom: solid 2px;
+    transition: 1s;
+    cursor: pointer;
+}
+
+#logo {
+    width: 120px;
+    height: 160px;
+    position: absolute;
+    margin-left: -110px;
+    margin-top: 50px;
+}
+
+a:link, a:visited {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+
+/* AREA DO CABEÇALHO */
+#header {
+    width: 100%;
+    height: 250px;
+    background-image: url(../imagens/pets.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    box-sizing: border-box;
+}
+
+#caixa_header {
+    width: 1200px;
+    height: 400px;
+    box-sizing: border-box;
+    padding-top: 70px;
+}
+
+/* SEÇÃO PRODUTOS */
+
+#caixa_empresa {
+    width: 100%; /* Ocupa toda a largura */
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulo {
+    width: 100%; /* Ocupa toda a largura */
+    height: 50px;
+    box-sizing: border-box;
+    padding-top: 15px;
+    margin-bottom: 100px;
+    text-align: center; /* Centraliza o texto */
+}
+
+.titulo h1, .titulo span {
+    font-family: sans-serif;
+    font-size: 5em;
+    letter-spacing: 20px;
+    font-weight: bold;
+}
+
+.titulo span {
+    font-size: 2em;
+    color: rgb(91, 91, 90);
+    letter-spacing: 10px;
+}
+
+.conteudo {
+    width: 100%; /* Ocupa toda a largura */
+    height: auto;
+    overflow: hidden;
+    text-align: center; /* Centraliza conteúdo */
+}
+
+.produtos {
+    width: 100%; /* Ocupa toda a largura */
+    display: flex;
+    flex-wrap: wrap; /* Permite que os cards quebrem para a próxima linha */
+    justify-content: center; /* Centraliza os cards horizontalmente */
+    gap: 20px; /* Adiciona espaçamento entre os cards */
+}
+
+.caixa_produto {
+    max-width: 250px; /* Definindo uma largura máxima para o card */
+    width: calc(100% - 40px); /* Largura máxima menos margem */
+    height: 50%;
+    margin: 20px;
+    box-shadow: 10px 10px 10px #cccccc;
+    background-color: #ADD8E6; /* Definindo o fundo como azul claro */
+}
+
+
+.caixa_titulo {
+    width: 100%; /* Ocupa toda a largura */
+    height: 50px;
+    background-color: #1e1e21;
+    font-family: verdana;
+    color: #ffffff;
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+    box-sizing: border-box;
+    padding-top: 15px;
+    margin-top: auto;
+    
+}
+
+.caixa_imagem {
+    width: 70%;
+    height: auto; /* Ajusta automaticamente a altura conforme a largura */
+    background-color: #ffffff;
+    margin: auto;
+    border: solid rgb(194, 247, 179) 2px;
+}
+
+.caixa_imagem img {
+    width: 100%; /* Ocupa toda a largura */
+    height: auto; /* Ajusta automaticamente a altura conforme a largura */
+}
+
+
+.caixa_texto {
+    width: 100%;
+    height: auto;
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 14px;
+    line-height: 1.5;
+    box-sizing: border-box;
+    padding-top: 10px;
+    color: #000000;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.caixa_texto p {
+    margin: 5px 0;
+    text-align: left;
+}
+
+/* FOOTER */
+
+#footer {
+    width: 100%;
+    height: 100px;
+    background-color: #00184d;
+    text-align: center;
+    color: #91f791;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 7px;
+}
+
+#caixa_footer {
+    padding-top: 30px;
+}
+
+/* CAROUSEL */
+
+.carousel {
+    margin: auto; /* Centraliza horizontalmente */
+    max-width: 800px; /* Define uma largura máxima */
+    border: 2px solid green; /* Adiciona uma borda verde de 2px */
+    overflow: hidden; /* Oculta a parte da imagem fora da borda */
+}
+
+.carousel-inner {
+    width: 100%; /* Garante que a largura do carrossel seja 100% */
+}
+
+.carousel-item {
+    text-align: center; /* Centraliza o conteúdo do slide */
+}

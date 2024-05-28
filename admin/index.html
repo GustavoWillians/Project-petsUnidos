@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <script src="./js/gerenciamento_pets.js" defer type="module"></script>
+    <title>Gerenciar Pets</title>
+
+</head>
+
+<body>
+    <header>
+        <div id="headerTitle">Sistema de Gerenciamento de Pets</div>
+        <button id="portalPetsBtn">Portal dos Pets</button>
+    </header>
+    
+
+    <div id="principal">
+        <h1>Cadastro de Pets</h1>
+        <form id="form">
+            <label>Nome</label>
+            <input type="text" name="txt_nome" id="nome"><br>
+            <label>Cor</label>
+            <textarea id="cor"></textarea><br>
+            <label>Imagem</label>
+            <input type="text" name="txt_image" id="image"><br>
+            <label>Raça</label>
+            <input type="text" name="txt_raca" id="raca"><br>
+            <div id="Salvar"> Salvar </div>
+        </form>
+    </div>
+
+    <div id="listPets">
+        <h1> Listagem de Pets </h1>
+        <div class="linha">
+            <div class="titulo">Nome</div>
+            <div class="titulo">Cor</div>
+            <div class="titulo">Raça</div>
+            <div class="titulo">Opções</div>
+        </div>
+
+        <div id="listDados">
+
+
+        </div>
+
+    </div>
+
+    <footer>
+        <span>Desenvolvido por:Gustavo WIllians, Leonardo Vinicius e Diogo Fonseca. </span>
+    </footer>
+</body>
+
+</html>
