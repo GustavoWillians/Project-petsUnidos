@@ -109,7 +109,7 @@ const setListDados = function (dadosPets) {
         let textNome = document.createTextNode(pet.nome);
         let textCor = document.createTextNode(pet.cor);
         let textRaca = document.createTextNode(pet.raca);
-        let textEditar = document.createTextNode('Editar');
+        let textEditar = document.createTextNode('Editar | ');
         let textExcluir = document.createTextNode('Excluir');
 
         divDados.setAttribute('id', `pet-${pet.id}`); // Adiciona um ID único para cada div de pet
@@ -211,6 +211,6 @@ document.addEventListener("DOMContentLoaded", function() {
     const portalPetsBtn = document.getElementById('portalPetsBtn');
 
     portalPetsBtn.addEventListener('click', function() {
-        window.location.href = '../Projeto_pets/index.html';
+        window.location.href = '../index.html';
     });
 });
