@@ -86,21 +86,19 @@ a:link, a:visited {
 
 .titulo {
     width: 100%; /* Ocupa toda a largura */
-    height: 50px;
     box-sizing: border-box;
     padding-top: 15px;
-    margin-bottom: 100px;
     text-align: center; /* Centraliza o texto */
 }
 
-.titulo h1, .titulo span {
-    font-family: sans-serif;
-    font-size: 5em;
-    letter-spacing: 20px;
-    font-weight: bold;
+.titulo span {
+    font-size: 2em;
+    color: rgb(91, 91, 90);
+    letter-spacing: 10px;
 }
 
-.titulo span {
+
+.titulo-dois span {
     font-size: 2em;
     color: rgb(91, 91, 90);
     letter-spacing: 10px;
@@ -200,7 +198,7 @@ a:link, a:visited {
 /* CAROUSEL */
 
 .carousel {
-    margin: auto; /* Centraliza horizontalmente */
+    margin: 50px auto; /* Adiciona uma margem superior e inferior de 50px e centraliza horizontalmente */
     max-width: 800px; /* Define uma largura máxima */
     border: 2px solid green; /* Adiciona uma borda verde de 2px */
     overflow: hidden; /* Oculta a parte da imagem fora da borda */

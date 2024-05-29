@@ -52,13 +52,24 @@ const postPets = async function () {
         });
 
         if (response.status === 201 || response.status === 200) {
-            alert('Registro inserido/atualizado com sucesso.');
+            // Exibe uma mensagem de confirmação
+            if (method === 'POST') {
+                alert('Registro inserido com sucesso.');
+            } else if (method === 'PUT') {
+                alert('Registro atualizado com sucesso.');
+            }
+
             // Limpa o ID do pet em modo de edição
             petEditId = null;
             // Atualiza a lista de pets após inserção/atualização
             getAPIPets();
             // Reseta o formulário após a operação
             document.getElementById('form').reset();
+            // Remove os placeholders
+            document.getElementById('nome').removeAttribute('placeholder');
+            document.getElementById('cor').removeAttribute('placeholder');
+            document.getElementById('image').removeAttribute('placeholder');
+            document.getElementById('raca').removeAttribute('placeholder');
             // Restaura o texto padrão do botão "Salvar"
             document.getElementById('Salvar').innerText = 'Salvar';
         } else {
@@ -69,6 +80,7 @@ const postPets = async function () {
         alert('Ocorreu um erro ao tentar fazer a requisição. Verifique o console para mais detalhes.');
     }
 };
+
 
 // Função para receber todos os pets da API
 const getAPIPets = async function () {
@@ -178,7 +190,7 @@ const editPet = async function (id) {
 
         if (response.status === 200) {
             // Exibe uma mensagem nos campos do formulário com os dados antigos do pet
-            document.getElementById('nome').placeholder = `Escreva o nome nome aqui `;
+            document.getElementById('nome').placeholder = `Escreva o novo nome aqui `;
             document.getElementById('cor').placeholder = `Escreva a nova cor aqui `;
             document.getElementById('image').placeholder = `Coloque a nova imagem aqui  `;
             document.getElementById('raca').placeholder = `Coloque a nova raça aqui`;
