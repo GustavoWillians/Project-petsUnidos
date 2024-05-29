@@ -149,7 +149,7 @@ window.addEventListener('load', function() {
             localStorage.removeItem('token');
             localStorage.removeItem('username');
             // Redireciona o navegador de volta para a página de login
-            window.location.href = '../login/index.html';
+            window.location.href = './login/index.html';
         });
     }
 });
