@@ -12,10 +12,10 @@ document.getElementById("button").addEventListener("click", function (event) {
                 // Salva o token de login e o nome de usuário no localStorage
                 localStorage.setItem('token', user.token);
                 localStorage.setItem('username', user.nome);
-                alert("Login successful! You will be redirected to the animal registration page.");
+                alert("Login bem-sucedido! Você será redirecionado para a página de registro do animal.");
                 window.location.href = "../admin/index.html";
             } else {
-                alert("Invalid username or password.");
+                alert("Nome de usuário ou senha inválidos.");
             }
         })
         .catch(error => {
