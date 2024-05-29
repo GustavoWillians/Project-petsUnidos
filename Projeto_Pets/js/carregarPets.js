@@ -140,7 +140,7 @@ window.addEventListener('load', function() {
         // Adiciona um evento de clique ao elemento de menu "Editar"
         loginMenu.addEventListener('click', function() {
             // Redireciona o navegador para a página de administração
-            window.location.href = '../admin/index.html';
+            window.location.href = './admin/index.html';
         });
 
         // Adiciona um evento de clique ao botão de logoff
