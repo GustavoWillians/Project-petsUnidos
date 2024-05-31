@@ -1,8 +1,6 @@
 /***************************************************************************      
-* Objetivo: Realizar a manipulação de dados GET, POST, PUT e DELETE
-* em uma API de pets
-* Data: 28/05/2024
-* Autor: Gustavo, Leonardo e Diogo
+* Ultima alteração: 31/05/2024
+* Autor: Gustavo Willians, Leonardo Vinicius e Diogo Gomes
 * Versão: 1.1
 ****************************************************************************/
 

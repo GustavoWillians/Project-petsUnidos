@@ -1,3 +1,10 @@
+/***************************************************************************      
+* Ultima alteração: 31/05/2024
+* Autor: Gustavo Willians, Leonardo Vinicius e Diogo Gomes
+* Versão: 1.1
+****************************************************************************/
+
+
 document.getElementById('signupForm').addEventListener('submit', function(event) {
     event.preventDefault(); // Prevenir o envio do formulário normalmente
 

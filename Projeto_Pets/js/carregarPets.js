@@ -1,9 +1,8 @@
-/******************************************************************************
- * Objetivo: Criar CARDS de forma dinâmica no HTML, tendo como base um 
- *              Array de produtos ou consumindo de uma API com BD
- * Data: 28/05/2024
- * Versão: 1.0
- *****************************************************************************/
+/***************************************************************************      
+* Ultima alteração: 31/05/2024
+* Autor: Gustavo Willians, Leonardo Vinicius e Diogo Gomes
+* Versão: 1.1
+****************************************************************************/
 
 // Função para criar os cards com os dados recebidos da API
 const criarCards = function(dados) {
