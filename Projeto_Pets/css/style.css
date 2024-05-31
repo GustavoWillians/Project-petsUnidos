@@ -25,18 +25,20 @@ body{
     height: inherit;
 }
 
+
+
 .item_menu {
     width: 200px;
     text-align: center;
     font-family: cursive;
     font-size: 26px;
-    color: chartreuse;
+    color: white;
     float: left;
     padding-top: 20px;
 }
 
 .item_menu:hover {
-    color: #ec0707;
+    color: #116a94;
     border-bottom: solid 2px;
     transition: 1s;
     cursor: pointer;
@@ -149,7 +151,7 @@ a:link, a:visited {
     height: auto; /* Ajusta automaticamente a altura conforme a largura */
     background-color: #ffffff;
     margin: auto;
-    border: solid rgb(194, 247, 179) 2px;
+    border: solid black 2px;
 }
 
 .caixa_imagem img {
@@ -200,7 +202,7 @@ a:link, a:visited {
 .carousel {
     margin: 50px auto; /* Adiciona uma margem superior e inferior de 50px e centraliza horizontalmente */
     max-width: 800px; /* Define uma largura máxima */
-    border: 2px solid green; /* Adiciona uma borda verde de 2px */
+    border: 2px solid black; /* Adiciona uma borda verde de 2px */
     overflow: hidden; /* Oculta a parte da imagem fora da borda */
 }
 
